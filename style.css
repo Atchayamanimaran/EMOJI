@@ -1,0 +1,73 @@
+body{
+    background-color: lightblue;
+}
+.emoji-face{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    border-radius:50%;
+    position:relative;
+}
+.eye1{
+    position: absolute;
+    height:11px;
+    width: 12px;
+    border-radius: 50%;
+    background-color:black ;
+    top:27px;
+    left:21px;
+    
+}
+.eye2{
+    position: absolute;
+    height:11px;
+    width: 12px;
+    border-radius: 50%;
+    background-color:black ;
+    top:27px;
+    right:20px;
+}
+.mouth{
+    position: absolute;
+    height:32px;
+    width: 70px;
+    background-color:black ;
+    border-radius: 0 0 50px 50px;
+    top:54px;
+    left:15px;
+    z-index:1;
+    overflow: hidden;
+}
+.toungue{
+    position: absolute;
+    height:35px;
+    width: 35px;
+    background-color:hotpink ;
+    border-radius: 40%;
+    top:15px;
+    left: 18px;
+    z-index: 2;
+    overflow: hidden;
+}
+.mouth1{
+    position: absolute;
+    height:30px;
+    width: 30px;
+    background-color:black ;
+    border-radius: 25px 25px 40px 40px;
+    top:54px;
+    left:33px;
+    z-index:1;
+    overflow: hidden;
+}
+.mouth2{
+    position: absolute;
+    height:10px;
+    width:60px;
+    background-color:black ;
+    border-radius: 25px 25px 40px 40px;
+    top:60px;
+    left:20px;
+    z-index:1;
+    overflow: hidden;
+}
